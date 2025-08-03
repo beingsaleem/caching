@@ -3,6 +3,10 @@ package com.caching;
 import java.util.HashMap;
 import java.util.Map;
 
+/***
+ * Least Recently Used cache eviction strategy
+ * Uses a hashmap and Doubly linked List
+ */
 public class LRUCache {
     private final ListNode head;
     private final ListNode tail;
